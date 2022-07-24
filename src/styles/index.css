@@ -17,20 +17,25 @@ body {
     width: 500px;
 }
 
-.itemInput, .addedItem {
+.itemInput, .listItem {
     border: 1px solid gray;
     width: 400px;
     float: left;
     background-color: white;
 }
-/* 
-.delButton {
-    display: none;
+
+.addedItem {
+    float: left;
 }
 
-.listItem:hover + .delButton {
+.delButton {
+    display: none;
+    float: right;
+}
+
+span:hover + .delButton {
     display: block;
-} */
+}
 
 footer {
     width: 350px;
