@@ -1,4 +1,38 @@
+body {
+    background-color: rgb(40, 122, 246);
+}
+
 .Home {
     justify-content: center;
     align-items: center; 
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+}
+
+.itemInput, .addedItem {
+    border: 1px solid gray;
+    width: 400px;
+    float: left;
+    background-color: white;
+}
+/* 
+.delButton {
+    display: none;
+}
+
+.listItem:hover + .delButton {
+    display: block;
+} */
+
+footer {
+    width: 350px;
+    text-align: left;
 }
